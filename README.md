@@ -13,7 +13,7 @@ Follow these steps to start the project:
 
 2. **Launch Application:**
     ```bash
-    npm start
+    node app.js
     ```
 
     The application will run at `http://localhost:3000` by default.
