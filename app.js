@@ -8,6 +8,23 @@ app.use(bodyParser.json());
 
 // Burda todo verisi mysql2 kütüphanesi ya da express express-graphql graphql kütüphanesi kullanılarak sql sorguları ya da graphql query ve mutationları ile de veri tabanında CRUD işlemleri yapılabilir.
 
+
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'kullaniciadi',
+//   password: 'sifre',
+//   database: 'veritabaniadi'
+// });
+
+// connection.connect((err) => {
+//   if (err) {
+//     console.error('Bağlantı başarısız:', err);
+//   } else {
+//     console.log('Bağlantı başarılı.');
+//   }
+// });
+
+
 let todos = [
   { id: 1, title: 'Yemek Yap', completed: false },
   { id: 2, title: 'Kod Yaz', completed: true }
