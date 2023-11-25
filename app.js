@@ -6,6 +6,8 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
+// Burda todo verisi mysql2 kütüphanesi ya da express express-graphql graphql kütüphanesi kullanılarak sql sorguları ya da graphql query ve mutationları ile de veri tabanında CRUD işlemleri yapılabilir.
+
 let todos = [
   { id: 1, title: 'Yemek Yap', completed: false },
   { id: 2, title: 'Kod Yaz', completed: true }
